@@ -27,4 +27,4 @@ jobs:
 
       - name: Run SoapUI tests
         run: |
-          $HOME/SoapUI/bin/testrunner.sh -s"Test Suite" -c"Test Case" ./soapui-tests/mi-proyecto.xml
+          $HOME/SoapUI/bin/testrunner.sh -s UsuariosAPISuite -c ObtenerUsuario REST-Project-1-soapui-project.xml
